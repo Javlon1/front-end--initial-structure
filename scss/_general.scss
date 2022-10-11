@@ -1,0 +1,38 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    display: flex;
+    justify-content: space-between;
+    flex-direction: column;
+    font-family: Arial, "Helvetica Neue", Helvetica, sans-serif;
+}
+
+html{
+    display: flex;
+    justify-content: space-between;
+    flex-direction: column;
+    scroll-behavior: smooth;
+}
+
+::-webkit-scrollbar{
+    width: 5px;
+    color: red;
+    background: #000;
+}
+
+
+a{
+    text-decoration: none;
+}
+
+li{
+    list-style-type: none;
+}
+
+.container{
+    border: 1px solid red;
+}

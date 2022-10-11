@@ -1,0 +1,48 @@
+header{
+    width: 100%;
+    background: silver;
+    position: fixed;
+    height: 100px;
+    display: flex;
+    align-items: center;
+    .container{
+        display: flex;
+        align-items: center;
+        .logo{
+            border: 1px solid red;
+            width: 205px;
+            height: 56px;
+        }
+        .nav{
+            border: 1px solid red;
+            width: 672px;
+            height: 37px;
+            &-list{
+                display: flex;
+                align-items: center;
+                &-item{
+                    margin-left: 44px;
+                    font-size: 14px;
+                    margin-top: 6px;
+                    a{
+                        color: #000;
+                    }
+                }
+            }
+        }
+        .contact{
+            border: 1px solid red;
+            margin-left: 70px;
+            width: 96px;
+            height: 38px;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            background: #000;
+            border-radius: 8px;
+            a{
+                color: #fff;
+            }
+        }
+    }
+}

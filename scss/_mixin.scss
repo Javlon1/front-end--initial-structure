@@ -1,0 +1,26 @@
+@mixin breakpoint-computer($screen-width) {
+    @media only screen and (max-width: $screen-width){
+        @content
+    }
+}
+
+
+@mixin breakpoint-laptop($screen-width) {
+    @media only screen and (max-width: $screen-width){
+        @content
+    }
+}
+
+
+@mixin breakpoint-tablet($screen-width) {
+    @media only screen and (max-width: $screen-width){
+        @content
+    }
+}
+
+
+@mixin breakpoint-telephone($screen-width) {
+    @media only screen and (max-width: $screen-width){
+        @content
+    }
+}
