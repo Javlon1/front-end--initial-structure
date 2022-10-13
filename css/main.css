@@ -54,21 +54,23 @@ header .container .logo {
   height: 56px;
 }
 header .container .nav {
-  border: 1px solid red;
   width: 672px;
   height: 37px;
 }
 header .container .nav-list {
+  border: 1px solid red;
+  width: 100%;
   display: flex;
   align-items: center;
+  justify-content: space-between;
 }
 header .container .nav-list-item {
-  margin-left: 44px;
   font-size: 14px;
   margin-top: 6px;
 }
 header .container .nav-list-item a {
   color: #000;
+  white-space: nowrap;
 }
 header .container .contact {
   border: 1px solid red;
