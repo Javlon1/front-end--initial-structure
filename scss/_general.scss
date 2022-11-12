@@ -19,10 +19,17 @@ html{
 }
 
 ::-webkit-scrollbar{
-    width: 5px;
-    color: red;
-    background: #000;
+    width: .5rem;
 }
+
+::-webkit-scrollbar-track{
+    background: var(--red);
+}
+
+::-webkit-scrollbar-thumb{
+    background-color: aqua;
+}
+
 
 
 a{

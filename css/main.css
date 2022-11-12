@@ -19,9 +19,15 @@ html {
 }
 
 ::-webkit-scrollbar {
-  width: 5px;
-  color: red;
-  background: #000;
+  width: 0.5rem;
+}
+
+::-webkit-scrollbar-track {
+  background: var(--red);
+}
+
+::-webkit-scrollbar-thumb {
+  background-color: aqua;
 }
 
 a {
@@ -34,6 +40,11 @@ li {
 
 .container {
   border: 1px solid red;
+}
+
+:root {
+  --red: red;
+  --black: #000;
 }
 
 header {
@@ -87,19 +98,6 @@ header .container .contact a {
   color: #fff;
 }
 
-.home {
-  width: 100%;
-  height: 750px;
-  background: seagreen;
-}
-.home .container {
-  margin-top: 100px;
-}
-
-.about {
-  height: 100vh;
-}
-
 .services {
   height: 100vh;
   background: red;
@@ -108,4 +106,17 @@ header .container .contact a {
 footer {
   background: #000;
   height: 424px;
+}
+
+.about {
+  height: 100vh;
+}
+
+.home {
+  width: 100%;
+  height: 750px;
+  background: rgb(28, 48, 37);
+}
+.home .container {
+  margin-top: 100px;
 }/*# sourceMappingURL=main.css.map */
