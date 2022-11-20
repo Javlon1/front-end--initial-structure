@@ -38,10 +38,6 @@ li {
   list-style-type: none;
 }
 
-.container {
-  border: 1px solid red;
-}
-
 :root {
   --red: red;
   --black: #000;
@@ -60,7 +56,6 @@ header .container {
   align-items: center;
 }
 header .container .logo {
-  border: 1px solid red;
   width: 205px;
   height: 56px;
 }
@@ -69,7 +64,6 @@ header .container .nav {
   height: 37px;
 }
 header .container .nav-list {
-  border: 1px solid red;
   width: 100%;
   display: flex;
   align-items: center;
@@ -84,7 +78,6 @@ header .container .nav-list-item a {
   white-space: nowrap;
 }
 header .container .contact {
-  border: 1px solid red;
   margin-left: 70px;
   width: 96px;
   height: 38px;
